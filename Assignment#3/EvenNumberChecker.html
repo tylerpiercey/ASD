@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            .button {
+                background-color: blue;
+                color: white;
+                padding: 8;
+                margin-top: 6;
+                border-style: solid;
+                border-radius: 10px;
+                border-color: rgb(119, 125, 204);
+            }
+        </style>
+        <title>Enter A Number</title>
+        <script>
+            function printEvenNumbers(){
+                let start = parseInt(0);
+                let end = parseInt(document.getElementById("end").value);
+                let evenNums = `<br>Even Numbers between 0 and ${end} are: `;
+
+                for(i=start; i<=end; i++){
+                    if(i % 2 == 0){
+                        evenNums += i +",";
+                    }
+                }
+                document.getElementById("result").innerHTML = evenNums;
+            }
+        </script>
+    </head>
+    <body>
+        <h3><strong>Enter A Number:</strong></h3>
+        <input type="text" id="end" min="0" value="0" /> <br>
+        <input type="button" class="button" onclick="printEvenNumbers()" value="Display Even Numbers" />
+        <div id="result"></div>
+    </body>
+</html>
+
