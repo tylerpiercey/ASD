@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+ul {
+    font-family: fantasy;
+    font-weight: 0;
+    font-style: oblique;
+    font-size: medium;
+    color: yellowgreen;
+}
+
+p.tidyup {
+    margin: 10px;
+    padding: 10px;
+    color: yellow;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+pre {
+    background-image: url(universe.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: yellow;
+    font-size: ;
+    
+}
+
+table, th, td {
+    border-style: ridge;
+    border-radius: 1px;
+    border-collapse: collapse;
+    color: yellow;
+}
+
+h1 {
+    
+    font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, white, yellow);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  }
+
+#foot {
+    text-align: center;
+    color: red;
+}
+
